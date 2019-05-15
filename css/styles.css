@@ -1,0 +1,87 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+  max-width: 970px;
+}
+.profile-title {
+  display: inline-block;
+  color : white;
+  width: 150px;
+  margin-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile-desc {
+  display: inline-block;
+  color: #848484;
+  margin-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 0px 9px;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+img.avatar {
+  margin-top: 20px;
+}
+
+.parallax-container1 {
+    height: 600px;
+}
+
+.info ul {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+.info p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.first-card, #sidenav,.interest{
+	background-color: #2b2b2b;
+}
+
+.active{
+	border-bottom: 4px solid #ff5722;
+}
+
+
+
+.interest-icon1{
+	color : #03a9f4;
+}
+
+.interest-icon2{
+	color : yellow;
+}
+
+.interest-icon3{
+	color : red;
+}
+
+#CarteMentale{
+	flex-shrink: 2;
+}
+@media screen and (max-width: 640px) {
+  .parallax-container1 {
+    height: 800px;
+	}
+
+.parallax-container2 {
+    height: 400px;
+	}
+}
