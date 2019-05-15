@@ -20,7 +20,7 @@ h2,h3{
 }
 
 .card-image{
-    height: 400px; /* Your height here */
+    height: 400px;
     overflow: hidden;
 }
 
@@ -104,6 +104,14 @@ img.avatar {
   width: 960px;
 }
 
+#Realisations{
+  margin-top: 150px;
+}
+
+#Competences{
+  margin-bottom: 150px;
+}
+
 @media screen and (max-width:1024px) {
 #CarteMentale{
   width: 640px;
@@ -136,6 +144,11 @@ img.avatar {
   .brandText{
     font-size: small;
   }
+
+  .card-image{
+    height: 360px;
+    overflow: hidden;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -165,4 +178,9 @@ img.avatar {
     font-size: 10px;
     text-align: center;
   }
+
+  .card-image{
+    height: 240px;
+    overflow: hidden;
+}
 }
