@@ -5,6 +5,30 @@ body{
 #wrapper {
   max-width: 970px;
 }
+
+#avatar{
+  width: 123px; height: 123px;
+}
+
+#avatarName{
+  padding-left: 5px;
+}
+
+
+h2,h3{
+  text-decoration: underline;
+}
+
+.card-image{
+    height: 400px; /* Your height here */
+    overflow: hidden;
+}
+
+
+.menuItems{
+  padding-bottom: -5px;
+}
+
 .profile-title {
   display: inline-block;
   color : white;
@@ -74,9 +98,25 @@ img.avatar {
 }
 
 
+
+#CarteMentale{
+  width: 680px;
+  width: 960px;
+}
+
+@media screen and (max-width:1024px) {
+#CarteMentale{
+  width: 640px;
+  height: 480px;
+}
+
+}
+
+
+
 @media screen and (max-width: 640px) {
   .parallax-container1 {
-    height: 800px;
+    height: 900px;
 	}
 
 .parallax-container2 {
@@ -91,5 +131,38 @@ img.avatar {
   #NuageMots{
     height: 360px;
     width: 360px;
+  }
+
+  .brandText{
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .parallax-container1 {
+    height: 1100px;
+  }
+
+.parallax-container2 {
+    height: 400px;
+  }
+
+  #CarteMentale{
+  height: 200px;
+  width: 320px;
+  }
+
+  #NuageMots{
+    height: 240px;
+    width: 240px;
+  }
+
+  .brandText{
+    font-size: small;
+  }
+
+  .interestText{
+    font-size: 10px;
+    text-align: center;
   }
 }

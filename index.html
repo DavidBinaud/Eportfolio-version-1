@@ -36,10 +36,12 @@
           <nav class="container white">
             <div class="nav-wrapper N/A">
               <a href="#" class="sidenav-trigger show-on-large" data-target="sidenav"><i class="material-icons  black-text">menu</i></a>
-              <a href="#" class="brand-logo black-text">Mon E-Portfolio</a>
+              <a href="#" class="brand-logo black-text"><span class="brandText">Mon E-Portfolio</span></a>
               <ul class="right hide-on-med-and-down">
-                <li><a class="waves-effect black-text" href="#Apropos">A propos</a></li>
+                <li class="menuItems"><a class="waves-effect black-text menuItems" href="#Apropos">A propos</a></li>
+                <li><a class="waves-effect black-text" href="#Interet">Interêts</a></li>
                 <li><a class="waves-effect black-text" href="#Competences">Compétences</a></li>
+                <li><a class="waves-effect black-text" href="#PPP">PPP</a></li>
                 <li><a class="waves-effect black-text" href="#Realisations">Réalisations</a></li>
               </ul>
             </div>
@@ -58,8 +60,8 @@
 
                 <div class="valign-wrapper">
 
-                  <img src="./images/avatar2.png" alt="avatar" style="width: 123px; height: 123px;">
-                  <span class="white-text" style="padding-left: 5px;">David Binaud</span>
+                  <img src="./images/avatar2.png" alt="avatar" id="avatar">
+                  <span class="white-text" id="avatarName">David Binaud</span>
 
                   <ul class="social-icons">
                       <li><a href="https://www.linkedin.com/in/david-binaud-540192148/" target="_blank" class="pure-button button-socicon"><span class="socicon socicon-linkedin white-text"></span></a></li>
@@ -71,22 +73,19 @@
               </div>        
           </li>
           <li><a class="waves-effect waves-light white-text" href="#Apropos">A propos</a></li>
+          <li><a class="waves-effect waves-light white-text" href="#Interet">Interêts</a></li>
           <li><a class="waves-effect waves-light white-text" href="#Competences">Compétences</a></li>
+          <li><a class="waves-effect waves-light white-text" href="#PPP">PPP</a></li>
           <li><a class="waves-effect waves-light white-text" href="#Realisations">Réalisations</a></li>
         </ul>
       
 
-        <!-- first card with personal info -->
-        
 
-        <!-- Skills -->
 
-        <!-- Interests -->
-
+        <!-- first card with personal info  + Parallax -->
 
         <div class="parallax-container parallax-container1 transparent scrollspy valign-wrapper" id="Apropos">
           <div class="container" id="wrapper">
-                <!-- first card with personal info -->
                 <div class="row">
                   <div class="col s12">
                     <div class="card">
@@ -127,6 +126,7 @@
           <div class="parallax"><img src="./images/NebulaWallpaper.jpg" alt="nebula"></div>
       </div>
 
+ <!--Qui  suis je -->
 
       <div class="container section">
       <div class="row">
@@ -149,9 +149,11 @@
          
        </div>
     </div>
-		
 
-        <div class="parallax-container transparent scrollspy valign-wrapper" id="Competences">
+
+		
+ <!--Interets -->
+        <div class="parallax-container transparent scrollspy valign-wrapper" id="Interet">
           <div class="parallax"><img src="./images/coding.jpg"></div>
 
           <div class="row container">
@@ -159,10 +161,10 @@
                   <div class="card ">
                       <div class="card-content center interest">
                         <div>
-                          <i class="material-icons interest-icon1">school</i>
+                          <i class="material-icons interest-icon1"><span class="">school</i>
                         </div>
                         <div>
-                          <span class="white-text">Etudier</span>
+                          <span class="white-text"><span class="interestText">Etudier</span>
                         </div>
                       </div>
                   </div>
@@ -175,7 +177,7 @@
                         <i class="material-icons interest-icon2">flight</i>
                       </div>
                       <div>
-                        <span class="white-text">Voyager</span>
+                        <span class="white-text"><span class="interestText">Voyager</span>
                       </div>
                     </div>
                   </div>
@@ -188,7 +190,7 @@
                       <i class="material-icons interest-icon3">developer_mode</i>
                     </div>
                     <div>
-                      <span class="white-text">Programmer</span>
+                      <span class="white-text"><span class="interestText">Programmer</span>
                     </div>
                   </div>
                 </div>
@@ -201,7 +203,7 @@
                       <i class="material-icons interest-icon1">videogame_asset</i>
                     </div>
                     <div>
-                      <span class="white-text">Gaming</span>
+                      <span class="white-text"><span class="interestText">Gaming</span>
                     </div>
                   </div>
                 </div>
@@ -214,7 +216,7 @@
                       <i class="material-icons interest-icon2">music_note</i>
                     </div>
                     <div>
-                      <span class="white-text">Musique</span>
+                      <span class="white-text"><span class="interestText">Musique</span>
                     </div>
                   </div>
                 </div>
@@ -227,7 +229,7 @@
                       <i class="material-icons interest-icon3">local_pizza</i>
                     </div>
                     <div>
-                      <span class="white-text">Nourriture</span>
+                      <span class="white-text"><span class="interestText">Nourriture</span>
                     </div>
                   </div>
                 </div>
@@ -235,11 +237,11 @@
             </div>
       </div>
 
-
-        <div class="section N/A scrollspy" id="Competences">
-		  	     <h2 class="white-text center" style="text-decoration: underline;">Compétences</h2>
+ <!--Competences -->
+        <div class="section N/A">
+		  	     <h2 class="white-text center">Compétences</h2>
              <div class="container skills">
-        <div class="row">
+        <div class="row scrollspy" id="Competences">
           <div class="col s12 l6 technicalSkill">
             <h2 id="skills" class="scrollspy center yellow-text">Techniques</h2>
             <div class="card">
@@ -272,7 +274,7 @@
             </div>
           </div>
           <div class="col s12 l6">
-            <h2 class="scrollspy center red-text">Autres compétences</h2>
+            <h2 class="scrollspy center red-text"><span class="OtherComp">Autres</span></h2>
             <div class="card">
               <div class="card-content blue lighten-4">
                 <div>
@@ -305,28 +307,39 @@
         </div>
       </div>
 
-      <div class="center">
-        <h2 class="white-text" style="text-decoration: underline;">PPP</h2>
-      <div class="">
 
-        <h3 class="white-text" style="text-decoration: underline;">Nuage de Mots</h3>
+ <!--PPP -->
+      <div class="center scrollspy"  id="PPP">
+        <h2 class="white-text">PPP</h2>
+      <div >
+
+        <h3 class="white-text" >Nuage de Mots</h3>
         <img id="NuageMots" src="./images/NuageDeMots.png" alt="nuageMots">
       </div>
 
-      <div>
-        <h3 class="white-text" style="text-decoration: underline;">Carte Mentale</h3>
+      <div class="CarteMentaleParent">
+        <h3 class="white-text" >Carte Mentale</h3>
         <img id="CarteMentale" src="./images/CarteMentale.png" alt="CarteMentale">
       </div>
     </div>
 
-    <div class="row center">
+
+
+
+
+
+
+    <!--Realisations -->
+    <div class="row center scrollspy" id="Realisations">
+      <h2 class="white-text center">Réalisations</h2>
       <div class="col s12 m6 l4 center">
         <div class="card center">
           <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/Bubble.png">
+              <img class="activator card-image" src="images/Bubble.png">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Bubble Point<i class="material-icons right">more_vert</i></span>
+            <p><a href="http://webinfo.iutmontp.univ-montp2.fr/~binaudd" target="_blank" class="center">Acceder au site</a></p>
           </div>
 
           <div class="card-reveal">
@@ -339,7 +352,7 @@
       <div class="col s12 m6 l4 center">
         <div class="card center">
           <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./images/Amarok.png">
+              <img class="activator card-image" src="./images/Amarok.png">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Amarok<i class="material-icons right">more_vert</i></span>
@@ -357,7 +370,7 @@
       <div class="col s12 m6 l4 center">
         <div class="card center">
           <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./images/Dominion.png">
+              <img class="activator card-image" src="./images/Dominion.png">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Dominion<i class="material-icons right">more_vert</i></span>
@@ -429,7 +442,6 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Pied de Page</h5>
                 <p class="grey-text text-lighten-4">Site Réalisé dans le cadre du programme de L'IUT</p>
               </div>
               <div class="col l4 offset-l2 s12">
