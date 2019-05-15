@@ -73,9 +73,7 @@ img.avatar {
 	color : red;
 }
 
-#CarteMentale{
-	flex-shrink: 2;
-}
+
 @media screen and (max-width: 640px) {
   .parallax-container1 {
     height: 800px;
@@ -84,4 +82,14 @@ img.avatar {
 .parallax-container2 {
     height: 400px;
 	}
+
+  #CarteMentale{
+  height: 360px;
+  width: 480px;
+  }
+
+  #NuageMots{
+    height: 360px;
+    width: 360px;
+  }
 }
